@@ -45,10 +45,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.oplus
-
-$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,USE_EFFECT_STREAM,true)
-$(call soong_config_set,OPLUS_LINEAGE_VIBRATOR_HAL,INCLUDE_DIR,$(LOCAL_PATH)/vibrator/include)
+    android.hardware.vibrator.service.oplus-richtap
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
