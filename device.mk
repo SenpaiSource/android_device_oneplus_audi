@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 1240
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947214369728643.xml
+    $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946583411818883.xml
 
 # LiveDisplay
 $(call soong_config_set,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
@@ -34,13 +34,6 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
-
-# Regional properties
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.EU.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.IN.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.IN.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.ROW.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.ROW.prop \
-    $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.default.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.default.prop
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -62,4 +55,4 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/avalon/avalon-vendor.mk)
+$(call inherit-product, vendor/oneplus/audi/audi-vendor.mk)
