@@ -1685,6 +1685,18 @@ odm/vendor/firmware/uff_spi.b07
 odm/vendor/firmware/uff_spi.b08
 odm/vendor/firmware/uff_spi.mdt
 
+# Fingerprint Pay firmware
+odm/vendor/firmware/alipay.b00
+odm/vendor/firmware/alipay.b01
+odm/vendor/firmware/alipay.b02
+odm/vendor/firmware/alipay.b03
+odm/vendor/firmware/alipay.b04
+odm/vendor/firmware/alipay.b05
+odm/vendor/firmware/alipay.b06
+odm/vendor/firmware/alipay.b07
+odm/vendor/firmware/alipay.b08
+odm/vendor/firmware/alipay.mdt
+
 # Graphics (Adreno firmware)
 vendor/firmware/gen70900_aqe.fw
 vendor/firmware/gen70900_sqe.fw
