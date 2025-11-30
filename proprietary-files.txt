@@ -1774,7 +1774,7 @@ odm/lib64/libQnnSystem.so
 odm/lib64/libaiboost.so
 odm/lib64/libaiboost_llm.so
 odm/lib64/libaiboost_qnn_external_delegate_te.so;FIX_SONAME
-odm/lib64/libaiboost_te.so
+odm/lib64/libaiboost_te.so;FIX_SONAME
 
 # NFC
 odm/etc/nfc/libnfc-mtp-SN220.conf_24211:vendor/etc/libnfc-nxp.conf
