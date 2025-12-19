@@ -120,7 +120,6 @@
         <value>1593600</value>
         <value>1708800</value>
         <value>1843200</value>
-        <value>1900800</value>
     </array>
 
     <array name="cpu.core_speeds.cluster1">
@@ -141,7 +140,6 @@
         <value>2188800</value>
         <value>2361600</value>
         <value>2572800</value>
-        <value>2611200</value>
     </array>
 
     <array name="cpu.core_speeds.cluster2">
@@ -179,7 +177,6 @@
         <value>29</value>
         <value>36</value>
         <value>40</value>
-        <value>42</value>
   </array>
 
   <!-- Current at each CPU speed for cluster 1, as per 'cpu.speeds.cluster1'.
@@ -203,7 +200,6 @@
         <value>115</value>
         <value>146</value>
         <value>167</value>
-        <value>175</value>
   </array>
 
   <!-- Current at each CPU speed for cluster 2, as per 'cpu.speeds.cluster2'.
