@@ -4,5 +4,9 @@ bluetooth.device.default_name=OnePlus Ace 3V
 # Graphics
 debug.sf.auto_latch_unsignaled=1
 
+# OPlus Camera
+ro.vendor.oplus.market.enname=OnePlus Ace 3V
+ro.vendor.oplus.market.name=OnePlus Ace 3V
+
 # USB
 vendor.usb.product_string=OnePlus Ace 3V
