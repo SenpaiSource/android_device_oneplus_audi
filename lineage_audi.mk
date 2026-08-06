@@ -21,6 +21,19 @@ PRODUCT_MODEL := PJF110
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+# Luna
+WITH_GMS := false
+WITH_BCR := true
+
+TARGET_CUSTOM_UDFPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_DISABLE_MATLOG := true
+HBM_SUPPORTED := true
+HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi-user 16 BP2A.250605.015 1785124924474 release-keys" \
     BuildFingerprint=OnePlus/PJF110/OP5CFBL1:16/UKQ1.231108.001/U.40ae559-1bb2f7e-1cc5d04:user/release-keys \
