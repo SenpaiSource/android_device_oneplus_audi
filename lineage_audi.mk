@@ -33,6 +33,7 @@ TARGET_OPTIMIZED_DEXOPT := true
 TARGET_DISABLE_MATLOG := true
 HBM_SUPPORTED := true
 HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
+BYPASS_CHARGE_SUPPORTED := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi-user 16 BP2A.250605.015 1785124924474 release-keys" \
