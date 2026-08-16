@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
+# Set surfaceflinger refreshrate
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # Maintainer string
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lunaris.maintainer=SATHIYA_SENPAI
