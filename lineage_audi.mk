@@ -37,8 +37,8 @@ BYPASS_CHARGE_SUPPORTED := true
 USE_REALITY_ENGINE := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi-user 16 BP2A.250605.015 1785124924474 release-keys" \
-    BuildFingerprint=OnePlus/PJF110/OP5CFBL1:16/UKQ1.231108.001/U.40ae559-1bb2f7e-1cc5d04:user/release-keys \
+    BuildDesc="qssi-user 16 BP2A.250605.015 1788854475117 release-keys" \
+    BuildFingerprint=OnePlus/PJF110/OP5CFBL1:16/UKQ1.231108.001/U.R4T2.202609082125:user/release-keys \
     DeviceName=OP5CFBL1 \
     DeviceProduct=PJF110 \
     SystemDevice=OP5CFBL1 \
