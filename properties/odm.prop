@@ -1,6 +1,10 @@
 # Radio
 ro.vendor.oplus.regionmark=CN
 
+# AI pipeline
+ro.oplus.pipeline.region=CN
+ro.oplus.pipeline_key=CN
+
 # Sensors
 ro.vendor.oplus.sensor.brl_receive=true
 ro.vendor.oplus.sensor.high_pwm_rgb=true
