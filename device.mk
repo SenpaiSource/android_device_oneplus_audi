@@ -46,6 +46,11 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
+# PowerOffAlarm
+PRODUCT_PACKAGES += \
+    PowerOffAlarm \
+    init.power_off_alarm.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
