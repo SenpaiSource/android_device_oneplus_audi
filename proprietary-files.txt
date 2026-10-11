@@ -1778,8 +1778,9 @@ vendor/lib64/libdtlm.so
 # Sensors
 vendor/lib64/sensors.qsh.so
 
+# Sensors config (Fusionlight config) - from CPH2661 OOS 11.F.17
+my_product/etc/fusionlight_profile/fusionlight_Main_2_6.json:odm/etc/fusionlight_profile/fusionlight_Main_2_6.json|227d9eab987f5c37216648c24e7238b187b527a3
 # Sensors config
-my_product/etc/fusionlight_profile/fusionlight_Main_2_6.json:odm/etc/fusionlight_profile/fusionlight_Main_2_6.json
 odm/etc/sensor/config/audi_qrd_ois_system.json
 odm/etc/sensor/config/json_list
 odm/etc/sensor/config/lux_aod.json
