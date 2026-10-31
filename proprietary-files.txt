@@ -122,6 +122,16 @@ odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin:odm/etc/spatializer/HP_MUSIC_DIGITAL
 odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin:odm/etc/spatializer/HP_MUSIC_GALILEO.bin
 odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin
 odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin
+odm/etc/spatializer/SPK_MOVIE_lvl1.bin
+odm/etc/spatializer/SPK_MOVIE_lvl2.bin
+odm/etc/spatializer/SPK_MOVIE_lvl3.bin
+odm/etc/spatializer/SPK_MOVIE_lvl4.bin
+odm/etc/spatializer/SPK_MOVIE_lvl5.bin
+odm/etc/spatializer/SPK_MOVIE_lvl6.bin
+odm/etc/spatializer/SPK_MOVIE_lvl7.bin
+odm/etc/spatializer/SPK_MOVIE_lvl8.bin
+odm/etc/spatializer/SPK_MOVIE_lvl9.bin
+odm/etc/spatializer/SPK_MOVIE_lvl10.bin
 odm/lib64/soundfx/liboplus_spatializer.so
 odm/lib64/liboplus_spat_audiox.so
 
