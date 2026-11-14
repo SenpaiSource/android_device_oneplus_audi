@@ -10,18 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from audi device
 $(call inherit-product, device/oneplus/audi/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
-PRODUCT_NAME := lineage_audi
-PRODUCT_DEVICE := audi
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := PJF110
-
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
-
 # Luna
+TARGET_ENABLE_FP_OVERRIDE := false
 WITH_GMS := false
 TARGET_CUSTOM_UDFPS := true
 TARGET_ENABLE_BLUR := true
@@ -32,6 +22,17 @@ TARGET_DISABLE_MATLOG := true
 HBM_SUPPORTED := true
 HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
 BYPASS_CHARGE_SUPPORTED := true
+
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+PRODUCT_NAME := lineage_audi
+PRODUCT_DEVICE := audi
+PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := PJF110
+
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi-user 16 BP2A.250605.015 1785124924474 release-keys" \
