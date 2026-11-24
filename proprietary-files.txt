@@ -120,8 +120,8 @@ odm/etc/oplusmetaaudio/HP_MUSIC_ANALOG.bin:odm/etc/spatializer/HP_MUSIC_ANALOG.b
 odm/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin:odm/etc/spatializer/HP_MUSIC_BLUETOOTH.bin
 odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin:odm/etc/spatializer/HP_MUSIC_DIGITAL.bin
 odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin:odm/etc/spatializer/HP_MUSIC_GALILEO.bin
-odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin|c720e5a6cf000ced42f0c50313dc5c54c87356c4
-odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin|c720e5a6cf000ced42f0c50313dc5c54c87356c4
+odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin:odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MOVIE.bin
+odm/etc/oplusmetaaudio/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin:odm/etc/spatializer/SPAT_AUDIOX_ROOMMODEL_MUSIC.bin
 odm/lib64/soundfx/liboplus_spatializer.so
 odm/lib64/liboplus_spat_audiox.so
 
